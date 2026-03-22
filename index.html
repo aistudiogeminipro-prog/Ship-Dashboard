@@ -9,19 +9,42 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     
-    <!-- 引入 Tailwind CSS (快速排版) -->
+    <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         body { margin: 0; padding: 0; background-color: #0f172a; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; overflow: hidden; }
         #map { height: 100vh; width: 100vw; z-index: 1; }
         
+        /* 懸浮控制面板 - 移至右上角 */
         #control-panel {
-            position: absolute; top: 20px; left: 60px; z-index: 1000;
-            background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px);
-            border: 1px solid #334155; border-radius: 12px; padding: 20px;
-            width: 350px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            position: absolute; top: 20px; right: 20px; z-index: 1000;
+            background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px);
+            border: 1px solid #334155; border-radius: 12px; 
+            width: 320px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            overflow: hidden; transition: all 0.3s ease;
         }
+
+        /* 控制面板標題列 (可點擊摺疊) */
+        #panel-header {
+            padding: 15px 20px; display: flex; justify-content: space-between; align-items: center;
+            cursor: pointer; background: rgba(30, 41, 59, 0.5); border-bottom: 1px solid transparent;
+        }
+        #panel-header:hover { background: rgba(30, 41, 59, 0.8); }
+        #panel-header.expanded { border-bottom: 1px solid #334155; }
+        
+        /* 控制面板內容區 */
+        #panel-content {
+            padding: 0 20px 20px 20px;
+            max-height: 0; opacity: 0; overflow: hidden;
+            transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease;
+        }
+        #panel-content.show {
+            max-height: 500px; opacity: 1; padding: 15px 20px 20px 20px;
+        }
+        
+        .toggle-icon { transition: transform 0.3s; }
+        .toggle-icon.rotated { transform: rotate(180deg); }
 
         .file-upload-btn {
             display: inline-block; width: 100%; padding: 10px;
@@ -31,12 +54,27 @@
         .file-upload-btn:hover { background: #1d4ed8; }
         input[type="file"] { display: none; }
 
-        .leaflet-popup-content-wrapper { background: #1e293b; color: #f8fafc; border-radius: 8px; border: 1px solid #475569; }
+        /* Leaflet Popup 樣式自訂 */
+        .leaflet-popup-content-wrapper { background: #1e293b; color: #f8fafc; border-radius: 8px; border: 1px solid #475569; padding: 0; }
+        .leaflet-popup-content { margin: 15px; }
         .leaflet-popup-tip { background: #1e293b; }
-        .popup-table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
-        .popup-table th { text-align: left; padding: 6px; border-bottom: 1px solid #334155; color: #94a3b8; width: 40%; }
+        
+        .popup-title { font-size: 16px; font-weight: bold; color: #38bdf8; border-bottom: 2px solid #0ea5e9; padding-bottom: 5px; margin-bottom: 10px; }
+        
+        /* 捲軸容器，確保內容過多時可滑動 */
+        .popup-scroll-container {
+            max-height: 280px; overflow-y: auto; padding-right: 5px;
+        }
+        
+        /* 自訂捲軸樣式 */
+        .popup-scroll-container::-webkit-scrollbar { width: 6px; }
+        .popup-scroll-container::-webkit-scrollbar-track { background: #1e293b; }
+        .popup-scroll-container::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+        .popup-scroll-container::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+        .popup-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .popup-table th { text-align: left; padding: 6px; border-bottom: 1px solid #334155; color: #94a3b8; width: 40%; white-space: nowrap; }
         .popup-table td { text-align: left; padding: 6px; border-bottom: 1px solid #334155; font-weight: 500; }
-        .popup-title { font-size: 16px; font-weight: bold; color: #38bdf8; border-bottom: 2px solid #0ea5e9; padding-bottom: 5px; margin-bottom: 5px; }
         
         #loading-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -52,29 +90,53 @@
     <div id="loading-overlay">
         <div class="loader mb-4"></div>
         <div id="loading-text" class="text-xl font-bold text-sky-400">正在從伺服器載入最新戰情資料...</div>
-        <div class="text-sm text-slate-400 mt-2">若持續載入中，可能是 GitHub Pages 仍在背景發布 (約需1分鐘)</div>
+        <div class="text-sm text-slate-400 mt-2">資料同步中，可能需要 15~30 秒，請稍候。</div>
     </div>
 
+    <!-- 懸浮控制面板 -->
     <div id="control-panel">
-        <h1 class="text-xl font-bold mb-1 text-sky-400">海洋動態監控圖臺</h1>
-        <p class="text-xs text-slate-400 mb-4">Tactical Ship Dynamic Dashboard</p>
+        <!-- 標題列 (點擊展開/收合) -->
+        <div id="panel-header" onclick="togglePanel()">
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-sky-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <h1 class="text-lg font-bold text-sky-400 m-0">功能選單</h1>
+            </div>
+            <!-- 箭頭圖示 -->
+            <svg id="toggle-icon" class="toggle-icon w-5 h-5 text-slate-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
         
-        <label class="file-upload-btn mb-4">
-            <input type="file" id="geojson-input" accept=".geojson,.json" />
-            <span id="upload-text">手動匯入 GeoJSON (備用)</span>
-        </label>
+        <!-- 內容區 -->
+        <div id="panel-content">
+            <p class="text-xs text-slate-400 mb-4">Tactical Ship Dynamic Dashboard</p>
+            
+            <label class="file-upload-btn mb-4">
+                <input type="file" id="geojson-input" accept=".geojson,.json" />
+                <span id="upload-text">手動匯入 GeoJSON (備用)</span>
+            </label>
 
-        <div class="grid grid-cols-2 gap-2 text-sm bg-slate-800 p-3 rounded-lg border border-slate-700">
-            <div class="text-slate-400">當前標定數量</div>
-            <div class="text-right font-bold text-emerald-400" id="ship-count">0 艘</div>
-            <div class="text-slate-400">資料來源</div>
-            <div class="text-right font-bold text-white" id="data-source">等待載入</div>
+            <div class="grid grid-cols-2 gap-2 text-sm bg-slate-800 p-3 rounded-lg border border-slate-700">
+                <div class="text-slate-400">當前標定數量</div>
+                <div class="text-right font-bold text-emerald-400" id="ship-count">0 艘</div>
+                <div class="text-slate-400">資料來源</div>
+                <div class="text-right font-bold text-white text-xs truncate" id="data-source">等待載入</div>
+            </div>
         </div>
     </div>
 
     <div id="map"></div>
 
     <script>
+        // 面板收合邏輯
+        function togglePanel() {
+            const content = document.getElementById('panel-content');
+            const icon = document.getElementById('toggle-icon');
+            const header = document.getElementById('panel-header');
+            
+            content.classList.toggle('show');
+            icon.classList.toggle('rotated');
+            header.classList.toggle('expanded');
+        }
+
         const map = L.map('map').setView([23.5, 121.0], 6);
         L.tileLayer('https://mt1.google.com/vt/lyrs=m&hl=zh-TW&x={x}&y={y}&z={z}', {
             maxZoom: 20, attribution: '&copy; Google Maps'
@@ -93,19 +155,49 @@
                 pointToLayer: (feature, latlng) => L.circleMarker(latlng, markerOptions),
                 onEachFeature: (feature, layer) => {
                     const props = feature.properties;
+                    
+                    // 將所有 17 個屬性完整映射為表格資料
+                    const infoList = [
+                        { label: '船名', val: props.shipname },
+                        { label: 'MMSI', val: props.mmsi },
+                        { label: 'IMO', val: props.imo },
+                        { label: '國籍', val: props.country },
+                        { label: '船舶類型', val: props.type_name },
+                        { label: '船長', val: props.vsl_length ? props.vsl_length + ' m' : '' },
+                        { label: '吃水深度', val: props.draught ? props.draught + ' m' : '' },
+                        { label: '航速', val: props.speed ? props.speed + ' 節' : '' },
+                        { label: '航向', val: props.course ? props.course + ' °' : '' },
+                        { label: '經度', val: props.ship_lon },
+                        { label: '緯度', val: props.ship_lat },
+                        { label: '最新時間', val: props.last_pos },
+                        { label: '出發港口', val: props.last_port_name },
+                        { label: '離港時間', val: props.departure_port_info_portTime },
+                        { label: '下一港口', val: props.next_port_name },
+                        { label: '目標區域', val: props.arrival_port_info_label },
+                        { label: '預估抵達', val: props.arrival_time_datetime }
+                    ];
+
+                    let tableRows = '';
+                    infoList.forEach(item => {
+                        // 空值處理
+                        const displayVal = (item.val === null || item.val === undefined || item.val === '') ? 'N/A' : item.val;
+                        // 針對特定欄位給予高亮顏色
+                        let colorClass = '';
+                        if (item.label === '最新時間') colorClass = 'text-emerald-400';
+                        if (item.label === '目標區域') colorClass = 'text-sky-400';
+                        
+                        tableRows += `<tr><th>${item.label}</th><td class="${colorClass}">${displayVal}</td></tr>`;
+                    });
+
+                    // 使用滾動容器包覆表格，確保內容過多時可向下捲動
                     layer.bindPopup(`
                         <div class="popup-title">${props.shipname || '未知船名'}</div>
-                        <table class="popup-table">
-                            <tr><th>MMSI / IMO</th><td>${props.mmsi} / ${props.imo || 'N/A'}</td></tr>
-                            <tr><th>國籍</th><td>${props.country || 'N/A'}</td></tr>
-                            <tr><th>船種類型</th><td>${props.type_name || 'N/A'}</td></tr>
-                            <tr><th>最新訊號</th><td class="text-emerald-400">${props.last_pos}</td></tr>
-                            <tr><th>航速 / 航向</th><td>${props.speed} 節 / ${props.course}°</td></tr>
-                            <tr><th>吃水深度</th><td>${props.draught} m</td></tr>
-                            <tr><th>出發港口</th><td>${props.last_port_name || '未知'}</td></tr>
-                            <tr><th>預估抵達</th><td>${props.arrival_time_datetime || 'N/A'}</td></tr>
-                        </table>
-                    `, { minWidth: 280 });
+                        <div class="popup-scroll-container">
+                            <table class="popup-table">
+                                ${tableRows}
+                            </table>
+                        </div>
+                    `, { minWidth: 320 });
                 }
             }).addTo(map);
 
@@ -114,14 +206,12 @@
             document.getElementById('data-source').innerText = sourceName;
         }
 
-        // ================= 核心：解析網址並自動載入 =================
+        // 解析網址並自動載入
         const urlParams = new URLSearchParams(window.location.search);
         const autoLoadFile = urlParams.get('file');
 
         if (autoLoadFile) {
             document.getElementById('loading-overlay').style.display = 'flex';
-            
-            // 加上時間戳防止瀏覽器快取舊檔案
             const fetchUrl = `${autoLoadFile}?t=${new Date().getTime()}`;
             
             fetch(fetchUrl)
@@ -130,7 +220,7 @@
                     return response.json();
                 })
                 .then(data => {
-                    renderGeoJSON(data, '自動連線 (Telegram)');
+                    renderGeoJSON(data, '雲端自動同步');
                     document.getElementById('loading-overlay').style.display = 'none';
                 })
                 .catch(error => {
@@ -155,4 +245,5 @@
     </script>
 </body>
 </html>
+
 
