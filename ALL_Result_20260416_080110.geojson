@@ -1,0 +1,3776 @@
+{
+    "type": "FeatureCollection",
+    "name": "ALL_Ships",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.91916,
+                    34.368343
+                ]
+            },
+            "properties": {
+                "mmsi": "413875023",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1103",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 00:15:28",
+                "vsl_length": 70,
+                "type_name": "Law Enforce",
+                "draught": 6.5,
+                "course": "178",
+                "speed": "7.50",
+                "ship_lat": 34.368343,
+                "ship_lon": 123.91916,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.10 12:16:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.4912,
+                    34.275791
+                ]
+            },
+            "properties": {
+                "mmsi": "413875025",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1105",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 01:44:29",
+                "vsl_length": 93,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "92",
+                "speed": "8.00",
+                "ship_lat": 34.275791,
+                "ship_lon": 123.4912,
+                "last_port_name": "LIANYUNGANG",
+                "departure_port_info_portTime": "2026.04.15 09:55:00",
+                "next_port_name": "LIANYUNGANG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">LYG</span>",
+                "arrival_time_datetime": "2026.12.09 08:00:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.46487,
+                    31.507021
+                ]
+            },
+            "properties": {
+                "mmsi": "413875028",
+                "imo": "",
+                "shipname": "CHINA COASTGUARD1106",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 12:13:30",
+                "vsl_length": 83,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "102",
+                "speed": "7.40",
+                "ship_lat": 31.507021,
+                "ship_lon": 121.46487,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.09 09:35:00",
+                "next_port_name": "LUHUASHAN ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.15 11:59:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.62836,
+                    30.63306
+                ]
+            },
+            "properties": {
+                "mmsi": "413875029",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1107",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 15:03:31",
+                "vsl_length": 120,
+                "type_name": "Fishing",
+                "draught": 0.0,
+                "course": "169",
+                "speed": "17.70",
+                "ship_lat": 30.63306,
+                "ship_lon": 122.62836,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.15 10:43:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.90415,
+                    16.053354
+                ]
+            },
+            "properties": {
+                "mmsi": "413875030",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1108",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 18:17:31",
+                "vsl_length": 105,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "311",
+                "speed": "12.30",
+                "ship_lat": 16.053354,
+                "ship_lon": 110.90415,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2025.11.25 09:05:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.54968,
+                    31.545633
+                ]
+            },
+            "properties": {
+                "mmsi": "413875012",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1301",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 09:06:33",
+                "vsl_length": 98,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 31.545633,
+                "ship_lon": 121.54968,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.03.10 11:15:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.03.14 09:31:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.43478,
+                    28.673353
+                ]
+            },
+            "properties": {
+                "mmsi": "413378580",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1302",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:50:33",
+                "vsl_length": 98,
+                "type_name": "Law Enforce",
+                "draught": 5.0,
+                "course": "263",
+                "speed": "3.20",
+                "ship_lat": 28.673353,
+                "ship_lon": 122.43478,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.15 11:40:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.43145,
+                    28.663067
+                ]
+            },
+            "properties": {
+                "mmsi": "413875014",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD1303",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:44:34",
+                "vsl_length": 112,
+                "type_name": "Other",
+                "draught": 0.0,
+                "course": "69",
+                "speed": "4.50",
+                "ship_lat": 28.663067,
+                "ship_lon": 122.43145,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.15 12:10:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.76805,
+                    31.312906
+                ]
+            },
+            "properties": {
+                "mmsi": "413875016",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 1305",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:46:34",
+                "vsl_length": 112,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.40",
+                "ship_lat": 31.312906,
+                "ship_lon": 121.76805,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.05 09:50:00",
+                "next_port_name": "ZHOUSHAN ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.15 15:21:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.51434,
+                    29.169769
+                ]
+            },
+            "properties": {
+                "mmsi": "413875017",
+                "imo": "",
+                "shipname": "H1783A",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 20:37:35",
+                "vsl_length": 134,
+                "type_name": "Law Enforce",
+                "draught": 5.0,
+                "course": "190",
+                "speed": "15.00",
+                "ship_lat": 29.169769,
+                "ship_lon": 122.51434,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.15 10:18:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.54781,
+                    31.546406
+                ]
+            },
+            "properties": {
+                "mmsi": "413875010",
+                "imo": "",
+                "shipname": "1401",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 09:16:36",
+                "vsl_length": 99,
+                "type_name": "Law Enforce",
+                "draught": 6.0,
+                "course": 0,
+                "speed": "0.20",
+                "ship_lat": 31.546406,
+                "ship_lon": 121.54781,
+                "last_port_name": "YUHUAN",
+                "departure_port_info_portTime": "2026.04.02 08:33:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.03 20:37:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.50553,
+                    22.162081
+                ]
+            },
+            "properties": {
+                "mmsi": "413875631",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21567",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:37",
+                "vsl_length": 13,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.162081,
+                "ship_lon": 113.50553,
+                "last_port_name": "GUISHAN",
+                "departure_port_info_portTime": "2026.04.08 09:25:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">HGW</span>",
+                "arrival_time_datetime": "2026.04.08 11:40:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.17301,
+                    29.963573
+                ]
+            },
+            "properties": {
+                "mmsi": "413875049",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2001",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:38",
+                "vsl_length": 2,
+                "type_name": "Tug",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.963573,
+                "ship_lon": 122.17301,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.07 15:14:00",
+                "next_port_name": "ZHOUSHAN ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.04.10 15:26:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.16859,
+                    29.964951
+                ]
+            },
+            "properties": {
+                "mmsi": "413875045",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2201",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:55:38",
+                "vsl_length": 112,
+                "type_name": "Law Enforce",
+                "draught": 3.7,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.964951,
+                "ship_lon": 122.16859,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2025.12.17 08:44:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2025.12.17 17:21:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.50931,
+                    28.387131
+                ]
+            },
+            "properties": {
+                "mmsi": "413875052",
+                "imo": "9351878",
+                "shipname": "ZHONG GUO HAI JING 2102",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 04:21:39",
+                "vsl_length": 74,
+                "type_name": "Patrol Vessel",
+                "draught": 0.2,
+                "course": "343",
+                "speed": "7.60",
+                "ship_lat": 28.387131,
+                "ship_lon": 122.50931,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.15 10:27:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "SHAOXING",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.16855,
+                    29.96489
+                ]
+            },
+            "properties": {
+                "mmsi": "413875046",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2202",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:59:39",
+                "vsl_length": 110,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.96489,
+                "ship_lon": 122.16855,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.07 15:06:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.04.09 15:39:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.54807,
+                    28.222126
+                ]
+            },
+            "properties": {
+                "mmsi": "413875047",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2203",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 03:16:39",
+                "vsl_length": 2,
+                "type_name": "Law Enforce",
+                "draught": 3.2,
+                "course": "260",
+                "speed": "0.50",
+                "ship_lat": 28.222126,
+                "ship_lon": 122.54807,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.15 10:34:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "H",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.22498,
+                    26.622192
+                ]
+            },
+            "properties": {
+                "mmsi": "413875048",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2204",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 03:25:39",
+                "vsl_length": 102,
+                "type_name": "Law Enforce",
+                "draught": 4.0,
+                "course": "91",
+                "speed": "5.30",
+                "ship_lat": 26.622192,
+                "ship_lon": 123.22498,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.03.25 08:11:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "X",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.46032,
+                    29.680693
+                ]
+            },
+            "properties": {
+                "mmsi": "413875033",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 2301",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:40",
+                "vsl_length": 98,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "109",
+                "speed": "14.00",
+                "ship_lat": 29.680693,
+                "ship_lon": 122.46032,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.16 06:12:00",
+                "next_port_name": "YUHUAN",
+                "arrival_port_info_label": "NINGBO ANCH [CN]",
+                "arrival_time_datetime": "2026.04.16 07:27:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.55338,
+                    25.423494
+                ]
+            },
+            "properties": {
+                "mmsi": "413875035",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 2303",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 01:25:41",
+                "vsl_length": 2,
+                "type_name": "Law Enforce",
+                "draught": 6.4,
+                "course": "271",
+                "speed": "7.40",
+                "ship_lat": 25.423494,
+                "ship_lon": 123.55338,
+                "last_port_name": "YUHUAN",
+                "departure_port_info_portTime": "2026.04.12 01:30:00",
+                "next_port_name": "NINGBO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">NBG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.47874,
+                    29.94556
+                ]
+            },
+            "properties": {
+                "mmsi": "413875036",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2304",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:47:41",
+                "vsl_length": 123,
+                "type_name": "Law Enforce",
+                "draught": 4.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.94556,
+                "ship_lon": 122.47874,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.15 12:59:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "X",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.72308,
+                    25.431892
+                ]
+            },
+            "properties": {
+                "mmsi": "413875039",
+                "imo": "9763643",
+                "shipname": "ZHONG GUO HAI JING 2501",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 00:38:43",
+                "vsl_length": 129,
+                "type_name": "Patrol Vessel",
+                "draught": 6.1,
+                "course": "258",
+                "speed": "6.90",
+                "ship_lat": 25.431892,
+                "ship_lon": 123.72308,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.03.27 07:02:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.18712,
+                    24.204844
+                ]
+            },
+            "properties": {
+                "mmsi": "413875042",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2503",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:56:44",
+                "vsl_length": 27,
+                "type_name": "Tanker",
+                "draught": 5.0,
+                "course": "51",
+                "speed": "11.30",
+                "ship_lat": 24.204844,
+                "ship_lon": 119.18712,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.04 10:15:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.09.06 19:51:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.13236,
+                    28.101027
+                ]
+            },
+            "properties": {
+                "mmsi": "413875055",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD2505",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:58:44",
+                "vsl_length": 107,
+                "type_name": "Reserved",
+                "draught": 5.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 28.101027,
+                "ship_lon": 121.13236,
+                "last_port_name": "YUHUAN",
+                "departure_port_info_portTime": "2026.03.06 10:34:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YUH</span>",
+                "arrival_time_datetime": "2026.03.06 13:59:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.48568,
+                    28.44532
+                ]
+            },
+            "properties": {
+                "mmsi": "413875040",
+                "imo": "9773777",
+                "shipname": "ZHONG GUO HAI JING 2502",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 04:41:44",
+                "vsl_length": 128,
+                "type_name": "Patrol Vessel",
+                "draught": 6.6,
+                "course": "340",
+                "speed": "6.00",
+                "ship_lat": 28.44532,
+                "ship_lon": 122.48568,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.15 10:20:00",
+                "next_port_name": "ZHOUSHAN ANCH",
+                "arrival_port_info_label": "ZHOUSHAN ANCH [CN]",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.60555,
+                    21.62635
+                ]
+            },
+            "properties": {
+                "mmsi": "413875348",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD3101",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:53:44",
+                "vsl_length": 150,
+                "type_name": "Law Enforce",
+                "draught": 3.6,
+                "course": "61",
+                "speed": "4.10",
+                "ship_lat": 21.62635,
+                "ship_lon": 114.60555,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2026.03.31 12:27:00",
+                "next_port_name": "GUANGZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">GZG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.43276,
+                    23.077208
+                ]
+            },
+            "properties": {
+                "mmsi": "413875346",
+                "imo": "",
+                "shipname": "CHINA COASTGUARD3305",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 20:03:48",
+                "vsl_length": 111,
+                "type_name": "Law Enforce",
+                "draught": 5.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 23.077208,
+                "ship_lon": 113.43276,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2026.03.23 10:33:00",
+                "next_port_name": "GUANGZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">GZG</span>",
+                "arrival_time_datetime": "2026.03.28 12:05:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.21724,
+                    21.643583
+                ]
+            },
+            "properties": {
+                "mmsi": "413875340",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD3501",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 12:02:50",
+                "vsl_length": 12,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "60",
+                "speed": "2.20",
+                "ship_lat": 21.643583,
+                "ship_lon": 114.21724,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2026.02.14 12:42:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.92765,
+                    15.574146
+                ]
+            },
+            "properties": {
+                "mmsi": "413875377",
+                "imo": "",
+                "shipname": "CHINA COASTGUARD4202",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 04:47:54",
+                "vsl_length": 102,
+                "type_name": "Law Enforce",
+                "draught": 7.0,
+                "course": "81",
+                "speed": "8.60",
+                "ship_lat": 15.574146,
+                "ship_lon": 111.92765,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2025.07.31 09:17:00",
+                "next_port_name": "XINSHA",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">XNA</span>",
+                "arrival_time_datetime": "2026.09.04 00:30:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.826,
+                    19.558842
+                ]
+            },
+            "properties": {
+                "mmsi": "413875373",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD4303",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 04:14:55",
+                "vsl_length": 0,
+                "type_name": "Unspecified",
+                "draught": 4.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 19.558842,
+                "ship_lon": 110.826,
+                "last_port_name": "",
+                "departure_port_info_portTime": "",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.24167,
+                    11.047992
+                ]
+            },
+            "properties": {
+                "mmsi": "413875405",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD5101",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:54:56",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "176",
+                "speed": "1.50",
+                "ship_lat": 11.047992,
+                "ship_lon": 114.24167,
+                "last_port_name": "SANYA",
+                "departure_port_info_portTime": "2026.04.08 18:31:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.92507,
+                    15.574674
+                ]
+            },
+            "properties": {
+                "mmsi": "413875406",
+                "imo": "",
+                "shipname": "COASTGUARD5102",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 21:30:57",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 4.3,
+                "course": 0,
+                "speed": "8.60",
+                "ship_lat": 15.574674,
+                "ship_lon": 110.92507,
+                "last_port_name": "SANYA",
+                "departure_port_info_portTime": "2026.03.11 08:20:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "SANYAGANG",
+                "arrival_time_datetime": "2026.09.07 17:47:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.48172,
+                    15.50176
+                ]
+            },
+            "properties": {
+                "mmsi": "412005306",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 5306",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 22:03:58",
+                "vsl_length": 134,
+                "type_name": "Law Enforce",
+                "draught": 6.0,
+                "course": "53",
+                "speed": "10.50",
+                "ship_lat": 15.50176,
+                "ship_lon": 117.48172,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2026.03.05 14:10:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "1",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.48172,
+                    15.50176
+                ]
+            },
+            "properties": {
+                "mmsi": "412005306",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 5306",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 22:03:58",
+                "vsl_length": 134,
+                "type_name": "Law Enforce",
+                "draught": 6.0,
+                "course": "53",
+                "speed": "10.50",
+                "ship_lat": 15.50176,
+                "ship_lon": 117.48172,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2026.03.05 14:10:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "1",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    124.20454,
+                    35.391899
+                ]
+            },
+            "properties": {
+                "mmsi": "413875766",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6106",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 22:21:02",
+                "vsl_length": 84,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 35.391899,
+                "ship_lon": 124.20454,
+                "last_port_name": "YANTAI",
+                "departure_port_info_portTime": "2026.03.23 09:03:00",
+                "next_port_name": "YANTAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YTG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.58199,
+                    37.444725
+                ]
+            },
+            "properties": {
+                "mmsi": "413875767",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6107",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:22:03",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 4.2,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 37.444725,
+                "ship_lon": 121.58199,
+                "last_port_name": "YANTAI",
+                "departure_port_info_portTime": "2026.03.02 16:06:00",
+                "next_port_name": "QINGDAO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.29752,
+                    36.05022
+                ]
+            },
+            "properties": {
+                "mmsi": "413875769",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6109",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 16:46:03",
+                "vsl_length": 90,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.10",
+                "ship_lat": 36.05022,
+                "ship_lon": 120.29752,
+                "last_port_name": "WEIHAI",
+                "departure_port_info_portTime": "2026.03.16 07:47:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": "2026.04.13 08:21:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.51952,
+                    36.092621
+                ]
+            },
+            "properties": {
+                "mmsi": "413875752",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 6302",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:04",
+                "vsl_length": 98,
+                "type_name": "Law Enforce",
+                "draught": 13.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.092621,
+                "ship_lon": 120.51952,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.03.18 13:04:00",
+                "next_port_name": "QINGDAO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.97392,
+                    37.859165
+                ]
+            },
+            "properties": {
+                "mmsi": "413875770",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6110",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 05:26:04",
+                "vsl_length": 148,
+                "type_name": "Unspecified",
+                "draught": 0.0,
+                "course": "154",
+                "speed": "2.20",
+                "ship_lat": 37.859165,
+                "ship_lon": 123.97392,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.04.11 08:25:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.15889,
+                    35.881767
+                ]
+            },
+            "properties": {
+                "mmsi": "413875754",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6304",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 00:46:05",
+                "vsl_length": 100,
+                "type_name": "Law Enforce",
+                "draught": 6.0,
+                "course": "122",
+                "speed": "8.10",
+                "ship_lat": 35.881767,
+                "ship_lon": 123.15889,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.04.03 16:10:00",
+                "next_port_name": "QINGDAO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": "2026.09.20 18:00:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.52099,
+                    36.092468
+                ]
+            },
+            "properties": {
+                "mmsi": "413875755",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6305",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:55:05",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 4.4,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.092468,
+                "ship_lon": 120.52099,
+                "last_port_name": "SHIDAO",
+                "departure_port_info_portTime": "2026.03.17 08:51:00",
+                "next_port_name": "QINGDAO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.521,
+                    36.092667
+                ]
+            },
+            "properties": {
+                "mmsi": "413875756",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD 6306",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:06",
+                "vsl_length": 110,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.092667,
+                "ship_lon": 120.521,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.03.25 12:50:00",
+                "next_port_name": "QINGDAO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.51948,
+                    36.092506
+                ]
+            },
+            "properties": {
+                "mmsi": "413875750",
+                "imo": "9767003",
+                "shipname": "ZHONG GUO HAI JING 1501",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:56:07",
+                "vsl_length": 129,
+                "type_name": "Patrol Vessel",
+                "draught": 6.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.092506,
+                "ship_lon": 120.51948,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.03.01 10:01:00",
+                "next_port_name": "JIMIYA ANCH",
+                "arrival_port_info_label": "JIMIYA ANCH [CN]",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.29724,
+                    36.050011
+                ]
+            },
+            "properties": {
+                "mmsi": "413875771",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD6502",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:07",
+                "vsl_length": 107,
+                "type_name": "Tanker",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.050011,
+                "ship_lon": 120.29724,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.03.30 10:36:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": "2026.04.02 15:28:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.28233,
+                    31.511793
+                ]
+            },
+            "properties": {
+                "mmsi": "413875063",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD11503",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 02:59:11",
+                "vsl_length": 30,
+                "type_name": "Law Enforce",
+                "draught": 3.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 31.511793,
+                "ship_lon": 121.28233,
+                "last_port_name": "QIDONG",
+                "departure_port_info_portTime": "2026.04.14 09:06:00",
+                "next_port_name": "QIDONG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.14 15:17:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.40396,
+                    32.513988
+                ]
+            },
+            "properties": {
+                "mmsi": "413875068",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD11508",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 20:26:12",
+                "vsl_length": 45,
+                "type_name": "Law Enforce",
+                "draught": 2.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 32.513988,
+                "ship_lon": 121.40396,
+                "last_port_name": "QIDONG",
+                "departure_port_info_portTime": "2026.03.22 06:12:00",
+                "next_port_name": "TAICANG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.03.22 15:47:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.42684,
+                    32.508259
+                ]
+            },
+            "properties": {
+                "mmsi": "413875071",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD11511",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:25:13",
+                "vsl_length": 60,
+                "type_name": "Law Enforce",
+                "draught": 2.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 32.508259,
+                "ship_lon": 121.42684,
+                "last_port_name": "SHEYANG",
+                "departure_port_info_portTime": "2026.04.15 09:43:00",
+                "next_port_name": "SHEYANG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YKG</span>",
+                "arrival_time_datetime": "2026.04.15 18:27:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.54884,
+                    31.38496
+                ]
+            },
+            "properties": {
+                "mmsi": "413875108",
+                "imo": "",
+                "shipname": "COAST GUARD 12508",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:52:15",
+                "vsl_length": 39,
+                "type_name": "Law Enforce",
+                "draught": 2.5,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 31.38496,
+                "ship_lon": 121.54884,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.14 06:40:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.14 06:45:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.07513,
+                    30.602303
+                ]
+            },
+            "properties": {
+                "mmsi": "413875104",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD12504",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:19:15",
+                "vsl_length": 43,
+                "type_name": "Law Enforce",
+                "draught": 1.8,
+                "course": "113",
+                "speed": "7.00",
+                "ship_lat": 30.602303,
+                "ship_lon": 122.07513,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.15 07:41:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.16 07:19:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.78773,
+                    31.359198
+                ]
+            },
+            "properties": {
+                "mmsi": "413875109",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD12509",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:15",
+                "vsl_length": 50,
+                "type_name": "Law Enforce",
+                "draught": 13.1,
+                "course": 0,
+                "speed": "0.10",
+                "ship_lat": 31.359198,
+                "ship_lon": 121.78773,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.15 07:27:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.15 21:34:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.09618,
+                    30.611423
+                ]
+            },
+            "properties": {
+                "mmsi": "413875110",
+                "imo": "",
+                "shipname": "12510",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 01:01:16",
+                "vsl_length": 775,
+                "type_name": "Law Enforce",
+                "draught": 2.4,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.611423,
+                "ship_lon": 122.09618,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.11 13:05:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.12 18:06:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.49506,
+                    31.412783
+                ]
+            },
+            "properties": {
+                "mmsi": "413875112",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD12601",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 00:08:16",
+                "vsl_length": 70,
+                "type_name": "Cargo",
+                "draught": 4.0,
+                "course": "140",
+                "speed": "1.20",
+                "ship_lat": 31.412783,
+                "ship_lon": 121.49506,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.10 11:42:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.10 11:52:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.09625,
+                    30.611481
+                ]
+            },
+            "properties": {
+                "mmsi": "413875111",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD12511",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 05:17:16",
+                "vsl_length": 46,
+                "type_name": "Cargo",
+                "draught": 0.2,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.611481,
+                "ship_lon": 122.09625,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.04 07:27:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.05 20:39:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.49522,
+                    31.412794
+                ]
+            },
+            "properties": {
+                "mmsi": "413875113",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD12602",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:17",
+                "vsl_length": 64,
+                "type_name": "Cardinal Mark E",
+                "draught": 2.8,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 31.412794,
+                "ship_lon": 121.49522,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.04.11 16:10:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.04.11 16:14:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.77224,
+                    31.465673
+                ]
+            },
+            "properties": {
+                "mmsi": "413875114",
+                "imo": "",
+                "shipname": "HAIJING12603",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:34:17",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 2.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 31.465673,
+                "ship_lon": 121.77224,
+                "last_port_name": "SHANGHAI",
+                "departure_port_info_portTime": "2026.03.24 07:58:00",
+                "next_port_name": "SHANGHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHG</span>",
+                "arrival_time_datetime": "2026.03.26 12:39:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.9562,
+                    29.88846
+                ]
+            },
+            "properties": {
+                "mmsi": "413875136",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13003",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 10:07:17",
+                "vsl_length": 20,
+                "type_name": "Other",
+                "draught": 0.0,
+                "course": "33",
+                "speed": "1.30",
+                "ship_lat": 29.88846,
+                "ship_lon": 121.9562,
+                "last_port_name": "DAISHAN ISLAND",
+                "departure_port_info_portTime": "2026.04.15 09:36:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">NBG</span>",
+                "arrival_time_datetime": "2026.04.15 10:05:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.64196,
+                    29.898951
+                ]
+            },
+            "properties": {
+                "mmsi": "413875155",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13018",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 10:30:19",
+                "vsl_length": 15,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "35",
+                "speed": "7.50",
+                "ship_lat": 29.898951,
+                "ship_lon": 121.64196,
+                "last_port_name": "NINGBO",
+                "departure_port_info_portTime": "2026.04.01 10:06:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">NBG</span>",
+                "arrival_time_datetime": "2026.04.15 07:48:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.40612,
+                    30.732607
+                ]
+            },
+            "properties": {
+                "mmsi": "413875133",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13025",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 09:55:22",
+                "vsl_length": 15,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "16",
+                "speed": "34.40",
+                "ship_lat": 30.732607,
+                "ship_lon": 122.40612,
+                "last_port_name": "MAJISHAN",
+                "departure_port_info_portTime": "2026.04.15 09:25:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.20856,
+                    30.226521
+                ]
+            },
+            "properties": {
+                "mmsi": "413875137",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13027",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 20:43:22",
+                "vsl_length": 15,
+                "type_name": "High Speed Craft",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.226521,
+                "ship_lon": 122.20856,
+                "last_port_name": "DAISHAN ISLAND",
+                "departure_port_info_portTime": "2026.04.15 15:18:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "DAISHAN ISLAND [CN]",
+                "arrival_time_datetime": "2026.04.15 16:56:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.98548,
+                    30.08449
+                ]
+            },
+            "properties": {
+                "mmsi": "413875140",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13030",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 13:40:23",
+                "vsl_length": 15,
+                "type_name": "Law Enforce",
+                "draught": 0.8,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.08449,
+                "ship_lon": 121.98548,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.15 11:41:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.04.15 12:12:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.98534,
+                    30.084124
+                ]
+            },
+            "properties": {
+                "mmsi": "413875125",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13052",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 16:00:29",
+                "vsl_length": 15,
+                "type_name": "Other",
+                "draught": 3.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.084124,
+                "ship_lon": 121.98534,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.15 10:50:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.04.15 14:16:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.09819,
+                    30.009186
+                ]
+            },
+            "properties": {
+                "mmsi": "413875130",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13506",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:46:34",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.009186,
+                "ship_lon": 122.09819,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.01.29 09:39:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.01.30 12:09:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.93103,
+                    29.901699
+                ]
+            },
+            "properties": {
+                "mmsi": "413875146",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13508",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 09:03:34",
+                "vsl_length": 30,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.901699,
+                "ship_lon": 121.93103,
+                "last_port_name": "NINGBO",
+                "departure_port_info_portTime": "2026.03.31 12:33:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">NBG</span>",
+                "arrival_time_datetime": "2026.04.02 17:36:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.09818,
+                    30.009121
+                ]
+            },
+            "properties": {
+                "mmsi": "413875131",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13509",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 18:48:36",
+                "vsl_length": 41,
+                "type_name": "Law Enforce",
+                "draught": 1.5,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.009121,
+                "ship_lon": 122.09818,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2026.04.09 16:21:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.04.13 10:50:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.89874,
+                    29.665199
+                ]
+            },
+            "properties": {
+                "mmsi": "413875148",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13517",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 02:00:38",
+                "vsl_length": 1022,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "72",
+                "speed": "6.00",
+                "ship_lat": 29.665199,
+                "ship_lon": 121.89874,
+                "last_port_name": "NINGBO",
+                "departure_port_info_portTime": "2026.04.13 08:50:00",
+                "next_port_name": "SHIPU ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">XSN</span>",
+                "arrival_time_datetime": "2026.04.15 21:08:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.93233,
+                    30.264231
+                ]
+            },
+            "properties": {
+                "mmsi": "413875123",
+                "imo": "",
+                "shipname": "CCG13527",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:47:41",
+                "vsl_length": 30,
+                "type_name": "Law Enforce",
+                "draught": 13.0,
+                "course": "280",
+                "speed": "14.30",
+                "ship_lat": 30.264231,
+                "ship_lon": 121.93233,
+                "last_port_name": "ZHAPU",
+                "departure_port_info_portTime": "2026.04.13 13:03:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.09448,
+                    30.008787
+                ]
+            },
+            "properties": {
+                "mmsi": "413875210",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13529",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:29:41",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.008787,
+                "ship_lon": 122.09448,
+                "last_port_name": "MAJISHAN",
+                "departure_port_info_portTime": "2026.04.04 09:31:00",
+                "next_port_name": "MAJISHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2026.04.06 15:30:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.14359,
+                    28.153374
+                ]
+            },
+            "properties": {
+                "mmsi": "413875213",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13532",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:43",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 2.3,
+                "course": 0,
+                "speed": "0.10",
+                "ship_lat": 28.153374,
+                "ship_lon": 121.14359,
+                "last_port_name": "WENZHOU",
+                "departure_port_info_portTime": "2026.04.15 18:32:00",
+                "next_port_name": "WENZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YUH</span>",
+                "arrival_time_datetime": "2026.04.15 19:24:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.59588,
+                    29.038147
+                ]
+            },
+            "properties": {
+                "mmsi": "413875214",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13533",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:52:43",
+                "vsl_length": 2,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.038147,
+                "ship_lon": 121.59588,
+                "last_port_name": "TAIZHOU",
+                "departure_port_info_portTime": "2026.04.12 13:18:00",
+                "next_port_name": "TAIZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">TZO</span>",
+                "arrival_time_datetime": "2026.04.12 16:14:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.08393,
+                    30.007389
+                ]
+            },
+            "properties": {
+                "mmsi": "413875186",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13601",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:56:43",
+                "vsl_length": 70,
+                "type_name": "Law Enforce",
+                "draught": 4.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.007389,
+                "ship_lon": 122.08393,
+                "last_port_name": "WENZHOU",
+                "departure_port_info_portTime": "2025.12.15 07:45:00",
+                "next_port_name": "WENZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZOS</span>",
+                "arrival_time_datetime": "2025.12.17 11:54:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.18539,
+                    30.246626
+                ]
+            },
+            "properties": {
+                "mmsi": "413875215",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13534",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:53:43",
+                "vsl_length": 60,
+                "type_name": "Pleasure Craft",
+                "draught": 2.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 30.246626,
+                "ship_lon": 122.18539,
+                "last_port_name": "MAJISHAN",
+                "departure_port_info_portTime": "2026.04.15 07:16:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "DAISHAN ISLAND [CN]",
+                "arrival_time_datetime": "2026.04.15 15:39:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.92597,
+                    29.912979
+                ]
+            },
+            "properties": {
+                "mmsi": "413875127",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13603",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 20:00:44",
+                "vsl_length": 110,
+                "type_name": "Law Enforce",
+                "draught": 4.5,
+                "course": "156",
+                "speed": "8.10",
+                "ship_lat": 29.912979,
+                "ship_lon": 121.92597,
+                "last_port_name": "DAISHAN ISLAND",
+                "departure_port_info_portTime": "2026.04.14 09:16:00",
+                "next_port_name": "ZHOUSHAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">NBG</span>",
+                "arrival_time_datetime": "2026.04.15 19:42:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.93087,
+                    29.901773
+                ]
+            },
+            "properties": {
+                "mmsi": "413875144",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD13602",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 15:08:44",
+                "vsl_length": 65,
+                "type_name": "Law Enforce",
+                "draught": 5.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 29.901773,
+                "ship_lon": 121.93087,
+                "last_port_name": "NINGBO",
+                "departure_port_info_portTime": "2026.04.03 09:06:00",
+                "next_port_name": "ZHOUSHAN ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">NBG</span>",
+                "arrival_time_datetime": "2026.04.05 16:57:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.30556,
+                    24.269175
+                ]
+            },
+            "properties": {
+                "mmsi": "413875307",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD14604",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 01:29:56",
+                "vsl_length": 65,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "107",
+                "speed": "6.30",
+                "ship_lat": 24.269175,
+                "ship_lon": 118.30556,
+                "last_port_name": "ZHOUSHAN",
+                "departure_port_info_portTime": "2025.06.24 06:19:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.56306,
+                    22.744801
+                ]
+            },
+            "properties": {
+                "mmsi": "413875551",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21506",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:33:10",
+                "vsl_length": 42,
+                "type_name": "Law Enforce",
+                "draught": 1.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.744801,
+                "ship_lon": 113.56306,
+                "last_port_name": "DONG GUAN",
+                "departure_port_info_portTime": "2026.04.10 14:59:00",
+                "next_port_name": "GUANGZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">GZG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.78183,
+                    21.775429
+                ]
+            },
+            "properties": {
+                "mmsi": "413875573",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21528",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:40:15",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 21.775429,
+                "ship_lon": 112.78183,
+                "last_port_name": "HONGWAN",
+                "departure_port_info_portTime": "2026.04.13 08:27:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.5048,
+                    22.161673
+                ]
+            },
+            "properties": {
+                "mmsi": "413875572",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21527",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 09:00:15",
+                "vsl_length": 51,
+                "type_name": "",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.161673,
+                "ship_lon": 113.5048,
+                "last_port_name": "HONGWAN",
+                "departure_port_info_portTime": "2026.03.19 15:21:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">HGW</span>",
+                "arrival_time_datetime": "2026.03.19 18:03:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.93772,
+                    22.482393
+                ]
+            },
+            "properties": {
+                "mmsi": "413875583",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21538",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:52:17",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.482393,
+                "ship_lon": 113.93772,
+                "last_port_name": "SHEKOU",
+                "departure_port_info_portTime": "2025.11.24 10:43:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.53989,
+                    22.710846
+                ]
+            },
+            "properties": {
+                "mmsi": "413875586",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21541",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 16:39:19",
+                "vsl_length": 30,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.710846,
+                "ship_lon": 114.53989,
+                "last_port_name": "HUIZHOU",
+                "departure_port_info_portTime": "2026.04.15 09:27:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">HUI</span>",
+                "arrival_time_datetime": "2026.04.15 15:46:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.36583,
+                    17.043545
+                ]
+            },
+            "properties": {
+                "mmsi": "413875589",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21544",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 18:12:19",
+                "vsl_length": 55,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "39",
+                "speed": "9.30",
+                "ship_lat": 17.043545,
+                "ship_lon": 111.36583,
+                "last_port_name": "ZHANJIANG",
+                "departure_port_info_portTime": "2026.03.06 10:39:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.88267,
+                    22.472418
+                ]
+            },
+            "properties": {
+                "mmsi": "413875594",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21549",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 17:55:20",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.472418,
+                "ship_lon": 113.88267,
+                "last_port_name": "GUISHAN",
+                "departure_port_info_portTime": "2026.04.09 08:14:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">CWN</span>",
+                "arrival_time_datetime": "2026.04.10 16:04:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.88274,
+                    22.471722
+                ]
+            },
+            "properties": {
+                "mmsi": "412021551",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21551",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:45:20",
+                "vsl_length": 50,
+                "type_name": "Law Enforce",
+                "draught": 2.0,
+                "course": 0,
+                "speed": "0.10",
+                "ship_lat": 22.471722,
+                "ship_lon": 113.88274,
+                "last_port_name": "WAI LINGDING ISLAND",
+                "departure_port_info_portTime": "2026.04.15 06:46:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">CWN</span>",
+                "arrival_time_datetime": "2026.04.15 08:09:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.88267,
+                    22.472469
+                ]
+            },
+            "properties": {
+                "mmsi": "413875603",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21557",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 09:34:20",
+                "vsl_length": 55,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.472469,
+                "ship_lon": 113.88267,
+                "last_port_name": "WAI LINGDING ISLAND",
+                "departure_port_info_portTime": "2026.04.13 09:04:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">CWN</span>",
+                "arrival_time_datetime": "2026.04.13 10:23:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.43394,
+                    23.077974
+                ]
+            },
+            "properties": {
+                "mmsi": "413875625",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21560",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 01:13:24",
+                "vsl_length": 2,
+                "type_name": "Unspecified",
+                "draught": 2.5,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 23.077974,
+                "ship_lon": 113.43394,
+                "last_port_name": "SHANTOU",
+                "departure_port_info_portTime": "2026.04.13 15:23:00",
+                "next_port_name": "GUANGZHOU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">GZG</span>",
+                "arrival_time_datetime": "2026.04.14 07:46:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.4352,
+                    23.089451
+                ]
+            },
+            "properties": {
+                "mmsi": "413875634",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21570",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:31:27",
+                "vsl_length": 50,
+                "type_name": "Law Enforce",
+                "draught": 5.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 23.089451,
+                "ship_lon": 113.4352,
+                "last_port_name": "ZHONGSHAN",
+                "departure_port_info_portTime": "2026.04.13 07:02:00",
+                "next_port_name": "ZHUHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZUH</span>",
+                "arrival_time_datetime": "2026.05.07 17:58:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.40342,
+                    21.258821
+                ]
+            },
+            "properties": {
+                "mmsi": "413875426",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21576",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:55:28",
+                "vsl_length": 0,
+                "type_name": "Military Ops",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 21.258821,
+                "ship_lon": 110.40342,
+                "last_port_name": "ZHANJIANG",
+                "departure_port_info_portTime": "2026.03.25 18:53:00",
+                "next_port_name": "HAIAN ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">ZHA</span>",
+                "arrival_time_datetime": "2026.03.25 20:15:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.23027,
+                    20.241764
+                ]
+            },
+            "properties": {
+                "mmsi": "413875430",
+                "imo": "",
+                "shipname": "CCG21581",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:29",
+                "vsl_length": 65,
+                "type_name": "Military Ops",
+                "draught": 0.0,
+                "course": "149",
+                "speed": "0.50",
+                "ship_lat": 20.241764,
+                "ship_lon": 110.23027,
+                "last_port_name": "ZHANJIANG",
+                "departure_port_info_portTime": "2026.04.12 10:54:00",
+                "next_port_name": "ZHANJIANG",
+                "arrival_port_info_label": "HAIAN ANCH [CN]",
+                "arrival_time_datetime": "2026.04.15 17:57:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.78571,
+                    21.802462
+                ]
+            },
+            "properties": {
+                "mmsi": "413875432",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21584",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:58:29",
+                "vsl_length": 0,
+                "type_name": "Military Ops",
+                "draught": 0.0,
+                "course": "295",
+                "speed": "1.10",
+                "ship_lat": 21.802462,
+                "ship_lon": 112.78571,
+                "last_port_name": "TAISHAN POWER PLANT",
+                "departure_port_info_portTime": "2026.04.15 14:43:00",
+                "next_port_name": "YANTIAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YTN</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.83209,
+                    22.266937
+                ]
+            },
+            "properties": {
+                "mmsi": "413875607",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21603",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 04:49:30",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.266937,
+                "ship_lon": 113.83209,
+                "last_port_name": "CHIWAN",
+                "departure_port_info_portTime": "2026.04.13 09:31:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.37234,
+                    22.597673
+                ]
+            },
+            "properties": {
+                "mmsi": "413000862",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD21615",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:33",
+                "vsl_length": 90,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 22.597673,
+                "ship_lon": 114.37234,
+                "last_port_name": "GUANGZHOU",
+                "departure_port_info_portTime": "2025.12.16 08:45:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "YANTIAN ANCH [CN]",
+                "arrival_time_datetime": "2026.04.15 11:25:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.16092,
+                    21.436384
+                ]
+            },
+            "properties": {
+                "mmsi": "413875667",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD22505",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:48:34",
+                "vsl_length": 52,
+                "type_name": "Law Enforce",
+                "draught": 11.0,
+                "course": "199",
+                "speed": "9.80",
+                "ship_lat": 21.436384,
+                "ship_lon": 108.16092,
+                "last_port_name": "FANGCHENG",
+                "departure_port_info_portTime": "2026.04.15 13:39:00",
+                "next_port_name": "FANGCHENG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">FAN</span>",
+                "arrival_time_datetime": "2026.04.15 19:29:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.31815,
+                    21.627155
+                ]
+            },
+            "properties": {
+                "mmsi": "413875666",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD22507",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:43:34",
+                "vsl_length": 52,
+                "type_name": "Law Enforce",
+                "draught": 2.8,
+                "course": "25",
+                "speed": "2.70",
+                "ship_lat": 21.627155,
+                "ship_lon": 108.31815,
+                "last_port_name": "FANGCHENG",
+                "departure_port_info_portTime": "2026.04.12 15:47:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">FAN</span>",
+                "arrival_time_datetime": "2026.04.12 17:03:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.19302,
+                    21.467503
+                ]
+            },
+            "properties": {
+                "mmsi": "413875665",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD22508",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:50:35",
+                "vsl_length": 52,
+                "type_name": "Law Enforce",
+                "draught": 11.0,
+                "course": "193",
+                "speed": "8.80",
+                "ship_lat": 21.467503,
+                "ship_lon": 108.19302,
+                "last_port_name": "FANGCHENG",
+                "departure_port_info_portTime": "2026.04.15 11:04:00",
+                "next_port_name": "FANGCHENG ANCH",
+                "arrival_port_info_label": "FANGCHENG ANCH [CN]",
+                "arrival_time_datetime": "2026.04.15 20:25:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.43101,
+                    16.528055
+                ]
+            },
+            "properties": {
+                "mmsi": "413875682",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD22518",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 11:10:38",
+                "vsl_length": 0,
+                "type_name": "Military Ops",
+                "draught": 0.0,
+                "course": "46",
+                "speed": "9.80",
+                "ship_lat": 16.528055,
+                "ship_lon": 111.43101,
+                "last_port_name": "SANYA",
+                "departure_port_info_portTime": "2026.04.05 08:04:00",
+                "next_port_name": "BEIHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">BHY</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.04185,
+                    21.217962
+                ]
+            },
+            "properties": {
+                "mmsi": "701123487",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD22515",
+                "country": "ARGENTINA",
+                "last_pos": "2026.04.16 07:55:38",
+                "vsl_length": 0,
+                "type_name": "Pleasure Craft",
+                "draught": 2.5,
+                "course": "333",
+                "speed": "8.30",
+                "ship_lat": 21.217962,
+                "ship_lon": 109.04185,
+                "last_port_name": "BEIHAI",
+                "departure_port_info_portTime": "2026.04.11 15:18:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "WU",
+                "arrival_time_datetime": "2026.07.03 16:42:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.20976,
+                    21.514986
+                ]
+            },
+            "properties": {
+                "mmsi": "413875663",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD22603",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:45:39",
+                "vsl_length": 68,
+                "type_name": "Law Enforce",
+                "draught": 2.7,
+                "course": "54",
+                "speed": "2.70",
+                "ship_lat": 21.514986,
+                "ship_lon": 108.20976,
+                "last_port_name": "FANGCHENG",
+                "departure_port_info_portTime": "2026.04.15 09:14:00",
+                "next_port_name": "FANGCHENG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">FAN</span>",
+                "arrival_time_datetime": "2026.04.18 21:50:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.2013,
+                    19.725046
+                ]
+            },
+            "properties": {
+                "mmsi": "413875704",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD23024",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 06:44:40",
+                "vsl_length": 0,
+                "type_name": "Unspecified",
+                "draught": 0.0,
+                "course": "271",
+                "speed": "17.20",
+                "ship_lat": 19.725046,
+                "ship_lon": 109.2013,
+                "last_port_name": "YANGPU",
+                "departure_port_info_portTime": "2026.04.16 05:29:00",
+                "next_port_name": "YANGPU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YPG</span>",
+                "arrival_time_datetime": "2026.04.16 06:28:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.85651,
+                    16.135288
+                ]
+            },
+            "properties": {
+                "mmsi": "476889000",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD23515",
+                "country": "",
+                "last_pos": "2026.04.15 08:59:44",
+                "vsl_length": 0,
+                "type_name": "Tug",
+                "draught": 0.0,
+                "course": "210",
+                "speed": "12.10",
+                "ship_lat": 16.135288,
+                "ship_lon": 111.85651,
+                "last_port_name": "YANGPU",
+                "departure_port_info_portTime": "2026.03.18 22:26:00",
+                "next_port_name": "HAIKOU ANCH",
+                "arrival_port_info_label": "HAIKOU ANCH [CN]",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.21389,
+                    19.731939
+                ]
+            },
+            "properties": {
+                "mmsi": "413875743",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD23517",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 10:50:44",
+                "vsl_length": 70,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 19.731939,
+                "ship_lon": 109.21389,
+                "last_port_name": "YANGPU",
+                "departure_port_info_portTime": "2026.04.11 12:29:00",
+                "next_port_name": "YANGPU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YPG</span>",
+                "arrival_time_datetime": "2026.04.11 19:26:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.3703,
+                    16.883656
+                ]
+            },
+            "properties": {
+                "mmsi": "413875742",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD23516",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 10:14:45",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.1,
+                "course": "93",
+                "speed": "15.80",
+                "ship_lat": 16.883656,
+                "ship_lon": 111.3703,
+                "last_port_name": "SANYA",
+                "departure_port_info_portTime": "2026.03.24 10:36:00",
+                "next_port_name": "SANYA",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SYX</span>",
+                "arrival_time_datetime": "2026.03.31 23:42:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.21395,
+                    19.732094
+                ]
+            },
+            "properties": {
+                "mmsi": "413875711",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD23602",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:53:45",
+                "vsl_length": 61,
+                "type_name": "Law Enforce",
+                "draught": 3.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 19.732094,
+                "ship_lon": 109.21395,
+                "last_port_name": "YANGPU",
+                "departure_port_info_portTime": "2026.04.15 08:50:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YPG</span>",
+                "arrival_time_datetime": "2026.04.15 09:42:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.8872,
+                    38.835751
+                ]
+            },
+            "properties": {
+                "mmsi": "413875777",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD31602",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 17:23:49",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 2.6,
+                "course": "83",
+                "speed": "7.60",
+                "ship_lat": 38.835751,
+                "ship_lon": 121.8872,
+                "last_port_name": "DALIAN",
+                "departure_port_info_portTime": "2026.04.15 14:02:00",
+                "next_port_name": "DALIAN",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">DAL</span>",
+                "arrival_time_datetime": "2026.04.15 14:26:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.98647,
+                    38.835827
+                ]
+            },
+            "properties": {
+                "mmsi": "413875835",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD31604",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:04:49",
+                "vsl_length": 65,
+                "type_name": "Tanker - Hazard D (Recognizable)",
+                "draught": 2.8,
+                "course": "178",
+                "speed": "8.30",
+                "ship_lat": 38.835827,
+                "ship_lon": 123.98647,
+                "last_port_name": "DALIAN",
+                "departure_port_info_portTime": "2026.04.11 12:38:00",
+                "next_port_name": "DALIAN ANCH",
+                "arrival_port_info_label": "DALIAN ANCH [CN]",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.70786,
+                    39.010662
+                ]
+            },
+            "properties": {
+                "mmsi": "413875844",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD31520",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 22:44:49",
+                "vsl_length": 0,
+                "type_name": "Pleasure Craft",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 39.010662,
+                "ship_lon": 121.70786,
+                "last_port_name": "DALIAN",
+                "departure_port_info_portTime": "2026.04.15 08:35:00",
+                "next_port_name": "DANDONG ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">DAL</span>",
+                "arrival_time_datetime": "2026.04.15 18:19:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.12313,
+                    39.290058
+                ]
+            },
+            "properties": {
+                "mmsi": "413875865",
+                "imo": "",
+                "shipname": "LONGHUI56",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 11:00:51",
+                "vsl_length": 15,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 39.290058,
+                "ship_lon": 119.12313,
+                "last_port_name": "JINGTANG",
+                "departure_port_info_portTime": "2025.09.26 17:38:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.87383,
+                    38.31514
+                ]
+            },
+            "properties": {
+                "mmsi": "4131402",
+                "imo": "",
+                "shipname": "VTS 4131402",
+                "country": "",
+                "last_pos": "2026.04.16 06:42:51",
+                "vsl_length": 0,
+                "type_name": "Manned VTS",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "",
+                "ship_lat": 38.31514,
+                "ship_lon": 117.87383,
+                "last_port_name": "HUANGHUA",
+                "departure_port_info_portTime": "2015.08.31 18:05:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">HUH</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.72428,
+                    39.939617
+                ]
+            },
+            "properties": {
+                "mmsi": "413875882",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32501",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:51:52",
+                "vsl_length": 45,
+                "type_name": "Port Tender",
+                "draught": 1.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 39.939617,
+                "ship_lon": 119.72428,
+                "last_port_name": "QINHUANGDAO",
+                "departure_port_info_portTime": "2026.03.08 09:21:00",
+                "next_port_name": "HUANGHUA",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHP</span>",
+                "arrival_time_datetime": "2026.03.09 16:32:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.48999,
+                    39.082947
+                ]
+            },
+            "properties": {
+                "mmsi": "413875848",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32507",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 17:00:53",
+                "vsl_length": 40,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.30",
+                "ship_lat": 39.082947,
+                "ship_lon": 118.48999,
+                "last_port_name": "CAOFEIDIAN",
+                "departure_port_info_portTime": "2026.04.15 08:44:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">CFD</span>",
+                "arrival_time_datetime": "2026.04.15 16:09:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.48997,
+                    39.083012
+                ]
+            },
+            "properties": {
+                "mmsi": "413875897",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32506",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 16:50:53",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 3.4,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 39.083012,
+                "ship_lon": 118.48997,
+                "last_port_name": "CAOFEIDIAN",
+                "departure_port_info_portTime": "2026.04.01 10:04:00",
+                "next_port_name": "QINHUANGDAO ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">CFD</span>",
+                "arrival_time_datetime": "2026.04.01 14:58:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.76131,
+                    39.839531
+                ]
+            },
+            "properties": {
+                "mmsi": "413875849",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32508",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 06:26:54",
+                "vsl_length": 40,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": "212",
+                "speed": "0.80",
+                "ship_lat": 39.839531,
+                "ship_lon": 119.76131,
+                "last_port_name": "QINHUANGDAO",
+                "departure_port_info_portTime": "2026.04.15 13:07:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "QINHUANGDAO ANCH [CN]",
+                "arrival_time_datetime": "2026.04.15 23:26:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.89077,
+                    38.319592
+                ]
+            },
+            "properties": {
+                "mmsi": "413875846",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32602",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:54:55",
+                "vsl_length": 60,
+                "type_name": "Law Enforce",
+                "draught": 3.0,
+                "course": 0,
+                "speed": "0.10",
+                "ship_lat": 38.319592,
+                "ship_lon": 117.89077,
+                "last_port_name": "QINHUANGDAO",
+                "departure_port_info_portTime": "2026.03.30 08:23:00",
+                "next_port_name": "QINHUANGDAO ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">HUH</span>",
+                "arrival_time_datetime": "2026.03.30 16:56:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.72427,
+                    39.940735
+                ]
+            },
+            "properties": {
+                "mmsi": "413875845",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32601",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:55:55",
+                "vsl_length": 91,
+                "type_name": "Pleasure Craft",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.20",
+                "ship_lat": 39.940735,
+                "ship_lon": 119.72427,
+                "last_port_name": "QINHUANGDAO",
+                "departure_port_info_portTime": "2026.03.24 08:29:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHP</span>",
+                "arrival_time_datetime": "2026.03.24 09:34:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.26429,
+                    36.099808
+                ]
+            },
+            "properties": {
+                "mmsi": "413875847",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD32603",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:59:56",
+                "vsl_length": 64,
+                "type_name": "Pilot Vessel",
+                "draught": 2.4,
+                "course": "286",
+                "speed": "3.50",
+                "ship_lat": 36.099808,
+                "ship_lon": 120.26429,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.04.13 08:51:00",
+                "next_port_name": "JIMIYA ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": "2026.04.15 16:13:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.95709,
+                    38.941887
+                ]
+            },
+            "properties": {
+                "mmsi": "413875912",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD33505",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:56:57",
+                "vsl_length": 12,
+                "type_name": "Law Enforce",
+                "draught": 2.2,
+                "course": "141",
+                "speed": "10.00",
+                "ship_lat": 38.941887,
+                "ship_lon": 117.95709,
+                "last_port_name": "TIANJIN",
+                "departure_port_info_portTime": "2026.04.16 07:40:00",
+                "next_port_name": "TIANJIN ANCH",
+                "arrival_port_info_label": "TIANJIN ANCH [CN]",
+                "arrival_time_datetime": "2026.04.16 08:52:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.4258,
+                    36.885895
+                ]
+            },
+            "properties": {
+                "mmsi": "413875921",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34505",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 02:57:59",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.885895,
+                "ship_lon": 122.4258,
+                "last_port_name": "SHIDAO",
+                "departure_port_info_portTime": "2026.04.14 10:04:00",
+                "next_port_name": "SHIDAO ANCH",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">SHD</span>",
+                "arrival_time_datetime": "2026.04.15 14:42:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30976,
+                    36.082684
+                ]
+            },
+            "properties": {
+                "mmsi": "413875922",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34506",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 08:00:00",
+                "vsl_length": 50,
+                "type_name": "Tug",
+                "draught": 1.5,
+                "course": "282",
+                "speed": "3.20",
+                "ship_lat": 36.082684,
+                "ship_lon": 120.30976,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.04.15 05:37:00",
+                "next_port_name": "QINGDAO",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">QDG</span>",
+                "arrival_time_datetime": "2026.04.15 19:27:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48623,
+                    35.320972
+                ]
+            },
+            "properties": {
+                "mmsi": "413875925",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34509",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 17:29:01",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 35.320972,
+                "ship_lon": 119.48623,
+                "last_port_name": "RIZHAO",
+                "departure_port_info_portTime": "2026.04.02 11:29:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">RZH</span>",
+                "arrival_time_datetime": "2026.04.02 11:42:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.132851,
+                    19.20545
+                ]
+            },
+            "properties": {
+                "mmsi": "345160005",
+                "imo": "9289233",
+                "shipname": "SAAM ZAPOTECA",
+                "country": "MEXICO",
+                "last_pos": "2026.04.16 08:00:02",
+                "vsl_length": 31,
+                "type_name": "Tug",
+                "draught": 4.5,
+                "course": "184",
+                "speed": "2.00",
+                "ship_lat": 19.20545,
+                "ship_lon": -96.132851,
+                "last_port_name": "NEW PORT VERACRUZ",
+                "departure_port_info_portTime": "2026.04.15 09:30:00",
+                "next_port_name": "VERACRUZ",
+                "arrival_port_info_label": "<span class=\"text-default\">MX</span><span class=\"text-default text-darker\">VER</span>",
+                "arrival_time_datetime": "2026.04.15 10:01:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.33799,
+                    35.928753
+                ]
+            },
+            "properties": {
+                "mmsi": "413875934",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34518",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:55:03",
+                "vsl_length": 22,
+                "type_name": "Law Enforce",
+                "draught": 1.6,
+                "course": "232",
+                "speed": "6.90",
+                "ship_lat": 35.928753,
+                "ship_lon": 120.33799,
+                "last_port_name": "WEIFANG",
+                "departure_port_info_portTime": "2025.11.21 10:22:00",
+                "next_port_name": "WEIFANG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">WEF</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.17719,
+                    19.719471
+                ]
+            },
+            "properties": {
+                "mmsi": "412051420",
+                "imo": "",
+                "shipname": "YANHAIXIAOTUO 10",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:58:04",
+                "vsl_length": 38,
+                "type_name": "Tug",
+                "draught": 4.8,
+                "course": 0,
+                "speed": "0.20",
+                "ship_lat": 19.719471,
+                "ship_lon": 109.17719,
+                "last_port_name": "YANGPU",
+                "departure_port_info_portTime": "2026.04.01 08:18:00",
+                "next_port_name": "YANGPU",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YPG</span>",
+                "arrival_time_datetime": "2026.04.05 08:51:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.17925,
+                    36.857502
+                ]
+            },
+            "properties": {
+                "mmsi": "413875938",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34522",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 02:20:04",
+                "vsl_length": 39,
+                "type_name": "Law Enforce",
+                "draught": 2.1,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 36.857502,
+                "ship_lon": 122.17925,
+                "last_port_name": "SHIDAO",
+                "departure_port_info_portTime": "2026.04.14 11:09:00",
+                "next_port_name": "SHIDAO",
+                "arrival_port_info_label": "JINGHAIWEI [CN]",
+                "arrival_time_datetime": "2026.04.15 13:24:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.39262,
+                    37.547089
+                ]
+            },
+            "properties": {
+                "mmsi": "413875939",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34523",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:15:04",
+                "vsl_length": 42,
+                "type_name": "Passenger",
+                "draught": 1.2,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 37.547089,
+                "ship_lon": 121.39262,
+                "last_port_name": "CHANGDAO",
+                "departure_port_info_portTime": "2025.12.24 10:47:00",
+                "next_port_name": "YANTAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YTG</span>",
+                "arrival_time_datetime": "2025.12.24 14:15:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.85141,
+                    37.83342
+                ]
+            },
+            "properties": {
+                "mmsi": "413875941",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34525",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 08:33:05",
+                "vsl_length": 74,
+                "type_name": "Unspecified",
+                "draught": 0.0,
+                "course": "38",
+                "speed": "11.30",
+                "ship_lat": 37.83342,
+                "ship_lon": 123.85141,
+                "last_port_name": "QINGDAO",
+                "departure_port_info_portTime": "2026.04.11 08:29:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.70561,
+                    37.924782
+                ]
+            },
+            "properties": {
+                "mmsi": "413876001",
+                "imo": "",
+                "shipname": "CHIANCOASTGUARD34526",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:05",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 0.0,
+                "course": 0,
+                "speed": "0.40",
+                "ship_lat": 37.924782,
+                "ship_lon": 120.70561,
+                "last_port_name": "CHANGDAO",
+                "departure_port_info_portTime": "2026.04.15 23:12:00",
+                "next_port_name": "YANTAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YTG</span>",
+                "arrival_time_datetime": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.95023,
+                    38.087818
+                ]
+            },
+            "properties": {
+                "mmsi": "413876003",
+                "imo": "",
+                "shipname": "CCG 34528",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 11:59:06",
+                "vsl_length": 60,
+                "type_name": "Law Enforce",
+                "draught": 4.0,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 38.087818,
+                "ship_lon": 118.95023,
+                "last_port_name": "DONGYING",
+                "departure_port_info_portTime": "2026.04.07 21:10:00",
+                "next_port_name": "DONGYING",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">DGY</span>",
+                "arrival_time_datetime": "2026.04.08 08:35:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.12375,
+                    37.508995
+                ]
+            },
+            "properties": {
+                "mmsi": "413876002",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34527",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:58:06",
+                "vsl_length": 0,
+                "type_name": "High Speed Craft",
+                "draught": 2.2,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 37.508995,
+                "ship_lon": 122.12375,
+                "last_port_name": "WEIHAI",
+                "departure_port_info_portTime": "2026.04.15 15:02:00",
+                "next_port_name": "",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">WEI</span>",
+                "arrival_time_datetime": "2026.04.15 15:38:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.19,
+                    37.243332
+                ]
+            },
+            "properties": {
+                "mmsi": "413876004",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34529",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 06:00:06",
+                "vsl_length": 0,
+                "type_name": "Law Enforce",
+                "draught": 2.7,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 37.243332,
+                "ship_lon": 119.19,
+                "last_port_name": "WEIFANG",
+                "departure_port_info_portTime": "2026.04.10 10:22:00",
+                "next_port_name": "WEIFANG",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">WEF</span>",
+                "arrival_time_datetime": "2026.04.10 12:58:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.16855,
+                    37.460411
+                ]
+            },
+            "properties": {
+                "mmsi": "413875913",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34530",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:57:07",
+                "vsl_length": 0,
+                "type_name": "High Speed Craft",
+                "draught": 2.5,
+                "course": 0,
+                "speed": "0.40",
+                "ship_lat": 37.460411,
+                "ship_lon": 122.16855,
+                "last_port_name": "WEIHAI",
+                "departure_port_info_portTime": "2026.04.15 09:36:00",
+                "next_port_name": "WEIHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">WEI</span>",
+                "arrival_time_datetime": "2026.04.15 15:07:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.57758,
+                    37.444695
+                ]
+            },
+            "properties": {
+                "mmsi": "413875914",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34602",
+                "country": "CHINA",
+                "last_pos": "2026.04.16 07:50:07",
+                "vsl_length": 70,
+                "type_name": "Law Enforce",
+                "draught": 3.6,
+                "course": 0,
+                "speed": "0.00",
+                "ship_lat": 37.444695,
+                "ship_lon": 121.57758,
+                "last_port_name": "WEIHAI",
+                "departure_port_info_portTime": "2026.04.01 06:46:00",
+                "next_port_name": "YANTAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">YTG</span>",
+                "arrival_time_datetime": "2026.12.29 19:53:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.65847,
+                    36.875732
+                ]
+            },
+            "properties": {
+                "mmsi": "413875916",
+                "imo": "",
+                "shipname": "CHINACOASTGUARD34604",
+                "country": "CHINA",
+                "last_pos": "2026.04.15 18:50:08",
+                "vsl_length": 64,
+                "type_name": "Law Enforce",
+                "draught": 2.8,
+                "course": "91",
+                "speed": "21.10",
+                "ship_lat": 36.875732,
+                "ship_lon": 122.65847,
+                "last_port_name": "WEIHAI",
+                "departure_port_info_portTime": "2026.04.15 01:58:00",
+                "next_port_name": "WEIHAI",
+                "arrival_port_info_label": "<span class=\"text-default\">CN</span><span class=\"text-default text-darker\">WEI</span>",
+                "arrival_time_datetime": "2026.04.17 00:25:00"
+            }
+        }
+    ]
+}
